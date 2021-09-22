@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'regualr';
+    src: url('../fonts/Raleway-Medium.ttf');
+}
+@font-face {
+    font-family: 'semibold';
+    src: url('../fonts/Raleway-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'bold';
+    src: url('../fonts/Raleway-Bold.ttf');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+
+
+/*berand*/
+.container .berand-name{
+    top: 50px;
+    padding: 50px 500px;
+}
+.container .berand-name .img_berand{
+    width: 191px;
+    height: 87px;
+}
+
+
+/*nav*/
+.container .content{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.container .content .navbar-nav,
+.container .content .languages{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .content .navbar-nav .nav-item .nav-link,
+.container .content .languages .lang{
+    font-family: 'regualr';
+    line-height: 30px;
+    font-size: 20px;
+    padding: 10px 10px;
+    color: #484848;
+}
+.container .content .navbar-nav .nav-item .nav-link img{
+    width: 15px;
+    height: 15px;
+}
+.container .content .navbar-nav .nav-item .Cinema{
+    color: #FFC80A;
+}
+.container .content .languages .active{
+    color: #C69A63;
+}
+.container .content .search_box{
+    width: 162px;
+    height: 30px;
+    border: 1px solid #DEDEDE;
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+.container .content .search_box input{
+    width: 130px;
+    height: 20px;
+    border: none;
+}
+.container .content .search_box img{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+/*content*/
+.container .content{
+    width: 100%;
+}
+.container .content .items{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+.container .content .items .box{
+    width: 30%;
+    height: 550px;
+    padding-bottom: 20px;
+    margin: 30px 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0 , 0 , .16);
+}
+.container .content .items .box .box-content{
+    width: 90%;
+}
+.container .content .items .box .box-img{
+    width: 100%;
+    height: 350px;
+}
+.container .content .items .box .box-content .head-content{
+    width: 100%;
+    font-size: 34px;
+    font-family: 'bold';
+    line-height: 46px;
+    padding: 20px 25px;
+    position: relative;
+}
+.container .content .items .box .box-content .head-content::after{
+    content: '';
+    position: absolute;
+    width: 105px;
+    height: 2px;
+    background-color: #C69A63FF;
+    bottom: 0;
+    left: 20px;
+}
+.container .content .items .box .box-content .p-content{
+    width: 100%;
+    font-size: 20px;
+    font-family: 'regualr';
+    color: #484848;
+    line-height: 20px;
+    padding: 20px 25px;
+}
+
+/*footer*/
+.footer .container .logo{
+    width: 100%;
+    position: relative;
+    z-index: 9;
+}
+.footer .container .logo::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 135px;
+    background-color: #C2C2C2;
+    z-index: -1;
+}
+.footer .container .logo .berand-name{
+    top: 50px;
+    padding: 100px 450px;
+}
+.footer .container .logo .berand-name .img_berand{
+    width: 191px;
+    height: 87px;
+    padding: 0px 50px;
+    background-color: white;
+}
+.footer .container .footer-content{
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-bottom: 150px;
+}
+.footer .container .footer-content .Places .head,
+.footer .container .footer-content .Sections .head,
+.footer .container .footer-content .Address .head,
+.footer .container .footer-content .Social .head{
+    font-size: 26px;
+    font-family: 'bold';
+    line-height: 35px;
+    color: #373535;
+    padding: 30px 0px;
+}
+.footer .container .footer-content .Places .Places-item,
+.footer .container .footer-content .Sections .sections-item,
+.footer .container .footer-content .Address .Address-item a,
+.footer .container .footer-content .Address .Address-item i,
+.footer .container .footer-content .Social .Social-item{
+    font-size: 20px;
+    font-family: 'regualr';
+    line-height: 27px;
+    color: #000000;
+    padding: 5px 0px;
+}
+.footer .container .footer-content .Social .social-icons{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
